@@ -19,7 +19,7 @@ p {
 
 .bg-aquarela {
     @extend .custom-card, .flex-center;
-    background-color: rgb(132, 31.8, 41.4);
+    background-color: white;
     background-image: url(/img/moldura.jpg);
     background-size: cover;
     padding: 5rem;
