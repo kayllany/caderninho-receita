@@ -1,0 +1,51 @@
+@import '../styles.scss';
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.is-active {
+  background-image: url(/img/circulo-caneta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0px;
+  padding: 1.5rem !important;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: $dark-red;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50px 50px 0px 0px;
+}
+
+footer>nav a {
+  color: $cream;
+}
+
+.bg-app{
+  background-color: #f5f5f5;
+}
+

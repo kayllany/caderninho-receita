@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bolo de chocolate",
+    "categoria": ["doce","sobremesa"],
+    "ingredientes": [
+      { "finalizado": false, "ordem": "1", "texto": "4 ovos" },
+      { "finalizado": false, "ordem": "2", "texto": "2 colheres de manteiga" },
+      { "finalizado": false, "ordem": "3", "texto": "1 xícaras de açúcar" },
+      { "finalizado": false, "ordem": "4", "texto": "1 xícara de leite" },
+      { "finalizado": false, "ordem": "5", "texto": "3 xícaras de farinha de trigo" },
+      { "finalizado": false, "ordem": "6", "texto": "1 xícara de achocolatado" },
+      { "finalizado": false, "ordem": "7", "texto": "1 colher de sopa de fermento em pó" },
+      { "finalizado": false, "ordem": "8", "texto": "(Calda) 2 xícaras de leite" },
+      { "finalizado": false, "ordem": "9", "texto": "(Calda) 1 xícara de achocolatado" },
+      { "finalizado": false, "ordem": "10", "texto": "(Calda) 1 xícara de acuçar" }
+    ],
+    "modo_preparo": [
+      { "finalizado": false, "ordem": "1", "texto": "Separe as claras da gema" },
+      { "finalizado": false, "ordem": "2", "texto": "Bata as claras em neve e reserve" },
+      { "finalizado": false, "ordem": "3", "texto": "Bata na batedeira a gema com o açucar e a manteiga até ficar homogenio, continue batendo e adicione o leite. Aos poucos vá colocando o trigo, o açucar e o achocolatado. Desligue a batedeira e com uma colher misture as claras em neve delicadamente. Após todos os ingredientes estarem misturados, adicione o fermento e leve para assar em uma forma untada" },
+      { "finalizado": false, "ordem": "4", "texto": "(Calda) — Enquanto o bolo assa, misture o leite, o achocolatado e o açúcar em uma panela. Leve ao fogo e deixe ferver até engrossar." }
+    ],
+    "observacoes": [
+        "Não abra o forno antes de 30 minutos, se não o bolo vai murchar"
+    ],
+    "consideracoes": [
+      { "texto": "Sempre lembro dessa receita nos dias frios. O cheiro de chocolate envolve a casa num abraço quente. A vó Neusa geralemnte fazia quando iamos visitar ela nos finais de semana.", "autor": "Kay"}
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Calda de Chocolate (casquinha)",
+    "categoria": ["doce","sobremesa","cobertura"],
+    "ingredientes": [
+      { "finalizado": false, "ordem": "1", "texto": "2 colheres (sopa) de leite" },
+      { "finalizado": false, "ordem": "2", "texto": "1 xícara (chá) de chocolaté em pó" },
+      { "finalizado": false, "ordem": "3", "texto": "1 xícara (chá) de acuçar" }
+    ],
+    "modo_preparo": [
+      { "finalizado": false, "ordem": "1", "texto": "Coloque no fogo e deixe derreter, vá mexendo para não queimar, despeje por cima do bolo ainda quente, quando esfriar vira uma casquinha de chocolate." }      
+    ],
+    "observacoes": [],
+    "consideracoes": []
+  }
+]

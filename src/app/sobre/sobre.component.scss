@@ -1,0 +1,26 @@
+@import '../../styles.scss';
+
+h1, h5 {
+    @extend .cursive-400;
+    color: $blue-pen;
+}
+
+li {
+    @extend .caveat-400;
+    color: $blue-pen;
+    font-size: 125%;
+}
+
+p {
+    @extend .caveat-400;
+    color: $blue-pen;
+    font-size: 125%;
+}
+
+.bg-aquarela {
+    @extend .custom-card, .flex-center;
+    background-color: rgb(132, 31.8, 41.4);
+    background-image: url(/img/moldura.jpg);
+    background-size: cover;
+    padding: 5rem;
+}

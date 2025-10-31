@@ -1,0 +1,21 @@
+<div class="custom-card px-3 py-2">
+  <div *ngIf="receitas.length > 0; else vazio">
+    <div class="pt-2 mb-3 d-flex">
+      <input pInputText [(ngModel)]="filter" type="text" placeholder="O que procura?" class="me-2 input" (ngModelChange)="filtrar()" />
+      <p-button icon="pi pi-search" [rounded]="true" severity="secondary" (click)="filtrar()" />
+    </div>
+    <div class="listagem">
+      <p *ngFor="let receita of receitas_filtradas" routerLink="detalhes" routerLink="detalhes/{{receita.id}}">
+        {{receita.titulo}}
+      </p>
+    </div>
+  </div>
+</div>
+
+<ng-template #vazio>
+  <div class="vazio">
+    <img src="/img/vazio.jpg" alt="" width="240vw">
+    <span class="cursive-400">Ops! ainda estamos transcrevendo as receitas.</span> <br>
+    <span class="cursive-700">Que tal tomar o cafézinho enquanto isso?</span>
+  </div>
+</ng-template>

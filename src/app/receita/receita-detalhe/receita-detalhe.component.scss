@@ -1,0 +1,66 @@
+@import '../../../styles.scss';
+
+h1 {
+    @extend .cursive-400;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    color: $fire-brick;
+    // font-size: 500%;
+}
+
+h2 {
+    @extend .cursive-pen-400;
+    font-size: 200%;
+}
+
+h3 {
+    @extend .cursive-400;
+    font-size: 110%;
+    color: $fire-brick;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    @extend .caveat-400;
+    color: $blue-pen;
+    font-size: 140%;
+    margin: 0px 0px 4px 0px;
+    padding: 0px;
+    padding: .1rem;
+}
+
+span {
+    @extend .caveat-400;
+    color: $fire-brick;
+    font-size: 140%;
+    margin: 0px 0px 4px 0px;
+    padding: 0px;
+    padding: .1rem;
+}
+
+$posicoes: top, bottom;
+@each $posicao in $posicoes {
+    .borda-#{$posicao} {
+        border-#{$posicao}: 1px $cream-line solid;
+    }
+    p.space-#{$posicao} {
+        @extend .borda-#{$posicao};
+        padding: 1rem;
+    }
+}
+
+::ng-deep {
+    .p-button-outlined.p-button-contrast {
+        border-color: $blue-pen!important;
+        color: $blue-pen!important;
+    }
+}
+
+.riscado {
+    text-decoration: line-through
+}
+
+.font-consideracoes{
+    font-size: 3rem;
+}

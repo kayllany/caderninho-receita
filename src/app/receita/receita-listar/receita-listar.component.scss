@@ -1,0 +1,58 @@
+@import '../../../styles.scss';
+
+.listagem {
+    height: 100%;
+    overflow: auto;
+}
+
+input {
+    @extend .cursive-400, .bg-light;
+    box-shadow: none !important; /* Removes the glowing shadow effect in Bootstrap */
+    border: none;
+    font-size: small;
+    width: 100%;
+}
+
+input:focus {
+    @extend .bg-light;
+    box-shadow: none !important; /* Removes the glowing shadow effect in Bootstrap */
+    border: none;
+    font-size: small;
+}
+
+h3 {
+    @extend .cursive-400, .borda-bottom;
+    font-size: 110%;
+    color: $fire-brick;
+    margin-bottom: 0px;
+    padding: .5rem;
+}
+
+p {
+    @extend .caveat-400, .borda-bottom;
+    color: $blue-pen;
+    font-size: 140%;
+    margin: 0px;
+    padding: 1rem;
+}
+
+.btn-outline-secondary-pill {
+    @extend .btn-outline-secondary;
+    border-radius: 20px;
+}
+
+$posicoes: top, bottom;
+@each $posicao in $posicoes {
+    .borda-#{$posicao} {
+        border-#{$posicao}: 1px $cream-line solid;
+    }
+    p.space-#{$posicao} {
+        @extend .borda-#{$posicao};
+        padding: 1rem;
+    }
+}
+
+.vazio {
+    @extend .listagem, .flex-center, .text-center;
+    color: $blue-pen;
+}
