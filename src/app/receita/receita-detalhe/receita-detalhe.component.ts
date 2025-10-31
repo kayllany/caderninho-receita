@@ -35,7 +35,6 @@ export class ReceitaDetalheComponent implements OnInit {
       next: (receita) => {
         if(receita)
         this.receita = receita
-      console.log(receita)
       },
       error: (err) => {
         console.log(err);
